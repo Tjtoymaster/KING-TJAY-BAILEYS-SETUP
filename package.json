@@ -1,0 +1,32 @@
+{
+  "name": "kingtj-baileys",
+  "version": "1.0.0",
+  "description": "KING-TJAY BAILEYS - WhatsApp Web API Library",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "author": "KING TJ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tjtoymaster/KING-TJAY-BAILEYS.git"
+  },
+  "keywords": [
+    "kingtj",
+    "king-tjay",
+    "baileys",
+    "whatsapp",
+    "whatsapp-web",
+    "pairing"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "libsignal": "^6.0.0",
+    "pino": "^9.0.0"
+  }
+}
